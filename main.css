@@ -1286,6 +1286,9 @@ EMAIL SIGN UP FORM
 	width: 90%;
 	
 }
+#mc_embed_signup form{
+	padding: 0;
+}
 .clear{
 	text-align:center;
 	max-width: calc(100% - 22px);
@@ -1305,6 +1308,24 @@ EMAIL SIGN UP FORM
 }
 .blackFormLabel{
 	color: #1a1a1a;
+}
+#mc_embed_signup input{
+	border-radius: 0;
+}
+#mc_embed_signup .mc-field-group{
+	width: 100%;
+}
+#mc_embed_signup .button{
+	background-color:#1a1a1a;
+	font-size:12px;
+	border-radius: 0;
+	padding: 10px 40px;
+	font-size:1em;
+	letter-spacing: .1em;
+	display: block;
+	margin: 20px auto;
+	width: 100%;
+	font-family:'Noto Sans KR', sans-serif, 'helvetica', 'arial';
 }
 
 /******************************
