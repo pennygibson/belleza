@@ -1212,6 +1212,9 @@ input[type=submit], input[type=button] {
 	border: none;
 	position: relative;
 	top: -1px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 	}
 	
 input[type=submit]:hover, input[type=button]:hover{ 
@@ -1326,7 +1329,10 @@ EMAIL SIGN UP FORM
 	margin: 20px auto;
 	width: 100%;
 	font-family:'Noto Sans KR', sans-serif, 'helvetica', 'arial';
-	height:50px;
+	height:40px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 /******************************
