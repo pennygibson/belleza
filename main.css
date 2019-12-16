@@ -49,8 +49,8 @@ h2{
 .center{
 	text-align:center;
 }
-.white{
-	color: white;
+#white{
+	color: #ffffff;
 }
 .logo{
 	align-self:center;
