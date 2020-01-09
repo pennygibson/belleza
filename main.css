@@ -1066,6 +1066,12 @@ BOOK PAGE GIFT CERTIFICATES AND SUBSCRIBE
 .paypalTitle{
 	font-family: 'Montserrat', sans-serif;
 }
+.gcConditions{
+	width: 50%;
+	margin: 0 auto;
+	font-size:.9em;
+	text-align:center;
+}
 /******************************
 CAFE AND LOUNGE PAGE
 *******************************/
@@ -1657,6 +1663,9 @@ MEDIA QUERIES
 	}
 	.appointmentImage{
 		grid-column: 1 / 10;
+	}
+	.gcConditions{
+		width: 80%;
 	}
 }
 @media(max-width:650px){
